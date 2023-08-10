@@ -1,16 +1,29 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
   xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
   <modelVersion>4.0.0</modelVersion>
-  <groupId>in.bounteous</groupId>
-  <artifactId>01-maven-web-app</artifactId>
+  <groupId>in.microdegree</groupId>
+  <artifactId>amzn</artifactId>
   <packaging>war</packaging>
-  <version>4.0-SNAPSHOT</version>
+  <version>1.0.0</version>
   <name>maven_webapp</name>
   <url>http://maven.apache.org</url>
   <properties>
-    <sonar.host.url>http://174.129.122.168:9000/</sonar.host.url>
-    <sonar.login>squ_977e8df473d3a35aed7ccf1bccc6f0de2835c53f</sonar.login>
+    <sonar.host.url>http://3.238.75.191:9000/</sonar.host.url>
+    <sonar.login>sqa_36d46e6817bce8375af2f7e0ac4356df92c366a8</sonar.login>
   </properties>
+
+  <distributionManagement>
+    <repository>
+      <id>nexusRepo</id>
+      <url>http://44.201.187.214:8081/repository/amzn-Release/</url>
+      <!--<name>Nexus Releases</name>-->
+    </repository>
+    <snapshotRepository>
+      <id>nexusRepo</id>
+      <url>http://44.201.187.214:8081/repository/amzn-Release/</url>
+      <!--<name>Nexus Snapshot</name>-->
+    </snapshotRepository>
+  </distributionManagement>
  
   <dependencies>
     <dependency>
