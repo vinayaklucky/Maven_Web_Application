@@ -3,6 +3,4 @@
 ## Using Webhook to trigger job
 ## Deploying to Tomcat
 ### Poll SCM Testing
-### Git-WebHook Testing
-now build triger added
-added
+### Git-WebHook Testig check now trigger
