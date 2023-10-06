@@ -4,4 +4,4 @@
 ## Deploying to Tomcat
 ### Poll SCM Testing
 ### Git-WebHook Testing
-i did it
+now build triger added
