@@ -1,5 +1,5 @@
-y
+
 # Using Build Now option in Jenkins, to build a job
 ## Using Webhook to trigger job
 focus on future
-deployed to tomcat
+successfully deployed on tomcat
